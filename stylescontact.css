@@ -1,0 +1,211 @@
+
+/*************************************Body***************************************/
+body{
+font-family: sans-serif;
+margin: 10px 200px 10px 200px;
+color: #747474;
+}
+.small-logo{
+display: flex;
+justify-content: center;
+}
+.Header-menu{
+display: flex;
+justify-content: space-between;
+padding : 10px;
+max-width: 1000px;
+margin: auto;
+}
+.Header-nav ul{
+display: flex;
+gap: 20px;
+}
+.Header-nav li{
+list-style-type: none;
+}
+.Header-nav a{
+text-decoration: none;
+color:#ababab; 
+}
+.Header-nav a:hover{
+color: #c30000;
+}
+.Header-nav .active {
+color: #c3000a;
+}
+.logo-AMI{
+height: 85px;
+}
+h1{
+font-weight: 500;
+color: black;
+}
+/************************************Membre SECTION **********************/
+.acces-membre{
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+}
+
+.membre-btn{
+background-color: #d11e06;
+color: white;
+padding: .25rem 0.5re;
+cursor: pointer;
+border:#ca580c;
+border-radius: 5px;
+padding: 5px 5px 5px 5px;
+font-style: inherit;
+font-family: arial;
+font-weight: 600;
+}
+.membre-btn:hover,
+.membre-btn:focus {
+box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+transform: translateY(-0.25em);
+}
+
+/************************************Introduction SECTION **********************/
+
+.Landing-area{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+margin-block: inherit;
+}
+.Newsbox{
+display: flex;
+background-color:white;
+flex-direction: row;
+border-radius: 5px;
+gap: 20px;
+}
+.Newsbox h1{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+.Newsbox p{
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing-image{
+background-size: contain;
+
+}
+
+div.polaroid {
+width: 80%;
+background-color: white;
+margin-bottom: 25px;
+}
+
+div.container {
+text-align: left;
+padding: 10px 20px;
+}
+
+
+/***********************************Nous rejoindre SECTION*********************/
+.join-box-content li{
+list-style-type: none;
+font-size: 12px;
+font-weight: 400;
+}
+.join-box-content li::before {
+content: "- ";
+}
+.Nous-rejoindre-section{
+display: flex;
+justify-content: space-between;
+gap: 40px;
+align-items: center;
+}
+.contact-box-content{
+display: flex;
+flex-direction: column;
+background-color: #f6f6f6;
+width: 300px;
+height: 300px;
+padding: 10px;
+}
+.contact-box-content h3{
+color: #504f4f;
+font-size: 12px;
+font-weight: 400;
+}
+.join-box-content{
+display: flex;
+flex-direction: column;
+background-color: #f6f6f6;
+width: 300px;
+height: 300px;
+padding: 10px;
+}
+.Contact-footer{
+color: #504f4f;
+font-size: 14px;
+font-weight: 500;
+padding: 10px;
+}
+.join-box-content h3{
+color: #504f4f;
+font-size: 12px;
+font-weight: 400;
+}
+/**********************************Bouton************************/
+.btn-1{
+background-color: #3d83df;
+text-transform: none;
+color: white;
+padding: .25rem 0.5re;
+cursor: pointer;
+border:#fbfbfc;
+border-radius: 5px;
+padding: 5px 5px 5px 5px;
+font-style: inherit;
+font-family: arial;
+}
+.btn-1:hover{
+background-color: #db3d15;
+box-shadow: 0px 15px 20px rgba(216, 15, 15, 0.4);
+color: #fff;
+transform: translateY(5px);
+}
+/**********************************FOOTER**************************/
+.contactntel{
+background-color: #282C35 ;
+color: white;
+font-size: 12px;
+font-weight: 400;
+padding: 5px;
+margin-bottom: 10px;
+}
+.copyright{
+color: #504f4f;
+font-size: 12px;
+font-weight: 400;
+}
+
+.apropos-bottom{
+color: #504f4f;
+font-size: 12px;
+font-weight: 400;
+}
+.footer{
+display: flex;
+}
+
+/************************************MEDIA QUERIES*****************************/
+@media screen and (max-width: 800px) {
+    .subservices-sections {   
+    flex-direction: column;
+    }
+    .Header-menu{
+    flex-direction: column;
+    }
+    .Header-nav ul{
+    justify-content: space-around;
+    }
+    }

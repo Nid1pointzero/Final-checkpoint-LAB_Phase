@@ -1,0 +1,189 @@
+
+/*************************************Body***************************************/
+body{
+font-family: sans-serif;
+margin: 10px 200px 10px 200px;
+color: #747474;
+}
+.small-logo{
+display: flex;
+justify-content: center;
+}
+.Header-menu{
+display: flex;
+justify-content: space-between;
+padding : 10px;
+max-width: 1000px;
+margin: auto;
+}
+.Header-nav ul{
+display: flex;
+gap: 20px;
+}
+.Header-nav li{
+list-style-type: none;
+}
+.Header-nav a{
+text-decoration: none;
+color:#ababab; 
+}
+.Header-nav a:hover{
+color: #c30000;
+}
+.Header-nav .active {
+color: #c3000a;
+}
+.logo-AMI{
+height: 85px;
+}
+h1{
+font-weight: 500;
+color: black;
+}
+
+/**********************************Bouton************************/
+.btn-1{
+background-color: #3d83df;
+text-transform: none;
+color: white;
+padding: .25rem 0.5re;
+cursor: pointer;
+border:#fbfbfc;
+border-radius: 5px;
+padding: 5px 5px 5px 5px;
+font-style: inherit;
+font-family: arial;
+}
+.btn-1:hover{
+background-color: #db3d15;
+box-shadow: 0px 15px 20px rgba(216, 15, 15, 0.4);
+color: #fff;
+transform: translateY(5px);
+}
+/**********************************FOOTER**************************/
+.contactntel{
+background-color: #282C35 ;
+color: white;
+font-size: 12px;
+font-weight: 400;
+padding: 5px;
+margin-bottom: 10px;
+}
+.copyright{
+color: #504f4f;
+font-size: 12px;
+font-weight: 400;
+}
+
+.apropos-bottom{
+color: #504f4f;
+font-size: 12px;
+font-weight: 400;
+}
+.footer{
+display: flex;
+}
+/************************************Career/POSTE 1*****************************/
+.Poste-Senior{
+display: flex;
+}
+.Poste-Senior li{
+list-style-type: none;
+font-size: 12px;
+font-weight: 400;
+}
+.Poste-Senior li.done::before {
+content: "- ";
+}
+.Poste-Senior h3{
+font-size: 12px;
+font-weight: 400;
+
+}
+/**************************************Career/styling**************************/
+
+.Poste-vacant h2{
+color:  #691515;
+font-size: 16px;
+font-weight: 500;
+text-align: justify;
+}
+
+.Poste-vacant h3{
+color:  #22252d;
+font-size: 12px;
+font-weight: 400;
+text-align: justify;
+}
+.Poste-vacant h4{
+color:  #6a6b6e;
+font-size: 12px;
+font-weight: 400;
+text-align: justify;
+}
+
+.Poste-vacant li{
+list-style-type: none;
+font-size: 12px;
+font-weight: 400;
+color: #22252d;
+}
+.Stage-PFE{
+display: box;
+padding:20px;
+border-radius: 15px;
+background-color: #ca3914;
+}
+
+.Stage-PFE h2{
+color:  #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+
+text-align: justify;
+}
+.Stage-PFE h3{
+color: white;
+font-size: 12px;
+font-weight: 400;
+text-align: justify;
+}
+.Stage-PFE h4{
+color:  white;
+font-size: 12px;
+font-weight: 400;
+text-align: justify;
+}
+.imagesuperman{
+display: flex;
+justify-content: space-around;
+}
+.imagesuperman h5{
+font-size: 40px;
+color: #22252d;
+}
+
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+ }
+ 
+ .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+ }
+
+
+/************************************MEDIA QUERIES*****************************/
+@media screen and (max-width: 800px) {
+    .subservices-sections {   
+    flex-direction: column;
+    }
+    .Header-menu{
+    flex-direction: column;
+    }
+    .Header-nav ul{
+    justify-content: space-around;
+    }
+    }
